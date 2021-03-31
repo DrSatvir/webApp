@@ -1,11 +1,30 @@
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 12pt;
+  line-height: 1.5rem;
+  background-image: url("background.jpg");
 }
 h1 {
   font-size: 30pt;
 }
 h2 {
   font-size: 20pt;
-  color: darkmagenta;
+  color: rgb(0, 0, 0);
+}
+.Tab1 {
+  width: 90%;
+  margin-left: 5%;
+  padding: 0px;
+}
+.Tab1 th {
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+.Tab1 td {
+  color: navy;
+  padding: 10px;
+}
+.Tab1 tr:hover {
+  background-color: rgb(231, 231, 231);
 }
