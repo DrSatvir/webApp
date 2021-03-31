@@ -1,0 +1,11 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+}
+h1 {
+  font-size: 30pt;
+}
+h2 {
+  font-size: 20pt;
+  color: darkmagenta;
+}
