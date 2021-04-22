@@ -1,11 +1,13 @@
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Arial", Courier, monospace;
   font-size: 12pt;
   line-height: 1.5rem;
   background-image: url("background.jpg");
+  color: navy;
 }
 h1 {
   font-size: 30pt;
+  color: red;
 }
 h2 {
   font-size: 20pt;
@@ -27,4 +29,56 @@ h2 {
 }
 .Tab1 tr:hover {
   background-color: rgb(231, 231, 231);
+}
+.mainContainer {
+  width: 80%;
+  background-color: palegoldenrod;
+  position: absolute;
+  padding: 1%;
+  margin-left: 10%; /* top, right bottom left  */
+}
+.innerDiv {
+  width: 35%;
+  float: left;
+  background-color: rgb(194, 193, 190);
+  position: relative;
+  padding: 1%;
+  margin: 1%; /* top, right bottom left  */
+}
+
+.mainDiv {
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+}
+.headerDiv {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: rgb(219, 219, 219);
+}
+.bodyDiv {
+  width: 100%;
+  box-sizing: border-box;
+  border: rgb(200, 200, 200) 1px solid;
+}
+.leftMenu {
+  width: 20%;
+  border: blue 1px dotted;
+  height: 100px;
+}
+.leftBody {
+  width: 80%;
+}
+.footerDiv {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(219, 219, 219);
+}
+.logo {
+  width: 200px;
+  margin-left: 10px;
 }
